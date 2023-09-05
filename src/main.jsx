@@ -4,7 +4,11 @@ import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 import App from './App.jsx'
 import './index.css'
-import UpdateProducts from './routes/UpdateProducts/index.jsx';
+
+import UpdateProducts from './routes/UpdateProducts';
+import Products from './routes/Products';
+import Error from './routes/Error';
+import Home from './routes/Home';
 
 const router = createBrowserRouter([
   {
