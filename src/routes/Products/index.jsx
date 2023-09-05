@@ -10,7 +10,7 @@ const Products = () => {
       <h1>Produtos</h1>
       {productList.map((prod) => (
         <div key={prod.id}>
-          {`ID: ${prod.id} | ${prod.name} | R$${prod.price},00 | `}
+          {`ID: ${prod.id} | ${prod.name} | ${prod.description} | R$${prod.price},00 | `}
           <Link to={`/products/update/${prod.id} `}>
             <button>
               <Edit />
